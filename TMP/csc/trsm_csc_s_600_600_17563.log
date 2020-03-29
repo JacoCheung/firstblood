@@ -1,0 +1,120 @@
+./bin/trsm_s_csc_x86_64_test --data-file=Matrix/r_600_600_17563.mtx --typeA=D --diagA=U --layout=R --check
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=D,--diagA=U,--layout=R,--check,
+ict_sparse_s_trsm_plain elasped time : 0.000731[sec]
+mkl_sparse_s_trsm elasped time : 0.000035[sec]
+
+Significant numeric error.
+inf-norm = 1.9999966621398926
+
+./bin/trsm_s_csc_x86_64_test --data-file=Matrix/r_600_600_17563.mtx --typeA=D --diagA=N --layout=R --check
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=D,--diagA=N,--layout=R,--check,
+ict_sparse_s_trsm_plain elasped time : 0.000832[sec]
+mkl_sparse_s_trsm elasped time : 0.001456[sec]
+
+correct!!!
+inf-norm = 0.0000152587890625
+
+./bin/trsm_s_csc_x86_64_test --data-file=Matrix/r_600_600_17563.mtx --typeA=D --diagA=U --layout=C --check
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=D,--diagA=U,--layout=C,--check,
+ict_sparse_s_trsm_plain elasped time : 0.000707[sec]
+mkl_sparse_s_trsm elasped time : 0.000034[sec]
+
+Significant numeric error.
+inf-norm = 1.9999966621398926
+
+./bin/trsm_s_csc_x86_64_test --data-file=Matrix/r_600_600_17563.mtx --typeA=D --diagA=N --layout=C --check
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=D,--diagA=N,--layout=C,--check,
+ict_sparse_s_trsm_plain elasped time : 0.000882[sec]
+mkl_sparse_s_trsm elasped time : 0.003181[sec]
+
+correct!!!
+inf-norm = 0.0000152587890625
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=T,--fillA=L,--diagA=N,--layout=R,--transA=N,--check,
+trsm_s_csc_n_lo_row_plain called
+ict_sparse_s_trsm_plain elasped time : 0.003749[sec]
+mkl_sparse_s_trsm elasped time : 0.008886[sec]
+
+Significant numeric error.
+inf-norm = 51791395714760704.0000000000000000
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=T,--fillA=L,--diagA=U,--layout=R,--transA=N,--check,
+trsm_s_csc_u_lo_row_plain called
+ict_sparse_s_trsm_plain elasped time : 0.003491[sec]
+mkl_sparse_s_trsm elasped time : 0.009231[sec]
+
+correct!!!
+inf-norm = 0.0001525878906250
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=T,--fillA=U,--diagA=N,--layout=R,--transA=N,--check,
+trsm_s_csc_n_hi_row_plain called
+ict_sparse_s_trsm_plain elasped time : 0.003841[sec]
+mkl_sparse_s_trsm elasped time : 0.015620[sec]
+
+Significant numeric error.
+inf-norm = 65970697666560.0000000000000000
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=T,--fillA=U,--diagA=U,--layout=R,--transA=N,--check,
+trsm_s_csc_u_hi_row_plain called
+ict_sparse_s_trsm_plain elasped time : 0.003508[sec]
+mkl_sparse_s_trsm elasped time : 0.016003[sec]
+
+correct!!!
+inf-norm = 0.0001068115234375
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=T,--fillA=L,--diagA=N,--layout=C,--transA=N,--check,
+trsm_s_csc_n_lo_col_plain called
+ict_sparse_s_trsm_plain elasped time : 0.021217[sec]
+mkl_sparse_s_trsm elasped time : 0.021840[sec]
+
+Significant numeric error.
+inf-norm = 45035996273704960.0000000000000000
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=T,--fillA=L,--diagA=U,--layout=C,--transA=N,--check,
+trsm_s_csc_u_lo_col_plain called
+ict_sparse_s_trsm_plain elasped time : 0.037499[sec]
+mkl_sparse_s_trsm elasped time : 0.022947[sec]
+
+correct!!!
+inf-norm = 0.0001525878906250
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=T,--fillA=U,--diagA=N,--layout=C,--transA=N,--check,
+trsm_s_csc_n_hi_col_plain called
+ict_sparse_s_trsm_plain elasped time : 0.032450[sec]
+mkl_sparse_s_trsm elasped time : 0.023206[sec]
+
+Significant numeric error.
+inf-norm = 70368744177664.0000000000000000
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_600_600_17563.mtx,--typeA=T,--fillA=U,--diagA=U,--layout=C,--transA=N,--check,
+trsm_s_csc_u_hi_col_plain called
+ict_sparse_s_trsm_plain elasped time : 0.037482[sec]
+mkl_sparse_s_trsm elasped time : 0.023700[sec]
+
+correct!!!
+inf-norm = 0.0001144409179688
+

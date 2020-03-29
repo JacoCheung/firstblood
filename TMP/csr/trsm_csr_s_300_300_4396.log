@@ -1,0 +1,88 @@
+./bin/trsm_s_csr_x86_64_test --data-file=Matrix/r_300_300_4396.mtx --typeA=D --diagA=U --layout=R --check
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.000005[sec]
+mkl_sparse_s_trsm elasped time : 0.000035[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+./bin/trsm_s_csr_x86_64_test --data-file=Matrix/r_300_300_4396.mtx --typeA=D --diagA=N --layout=R --check
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.000232[sec]
+mkl_sparse_s_trsm elasped time : 0.000491[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+./bin/trsm_s_csr_x86_64_test --data-file=Matrix/r_300_300_4396.mtx --typeA=D --diagA=U --layout=C --check
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.000005[sec]
+mkl_sparse_s_trsm elasped time : 0.000030[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+./bin/trsm_s_csr_x86_64_test --data-file=Matrix/r_300_300_4396.mtx --typeA=D --diagA=N --layout=C --check
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.000231[sec]
+mkl_sparse_s_trsm elasped time : 0.000522[sec]
+
+correct!!!
+inf-norm = 0.0000038146972656
+
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.002908[sec]
+mkl_sparse_s_trsm elasped time : 0.001309[sec]
+
+Significant numeric error.
+inf-norm = 224.0000000000000000
+
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.002542[sec]
+mkl_sparse_s_trsm elasped time : 0.001271[sec]
+
+correct!!!
+inf-norm = 0.0000114440917969
+
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.002761[sec]
+mkl_sparse_s_trsm elasped time : 0.001885[sec]
+
+Significant numeric error.
+inf-norm = 36864.0000000000000000
+
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.002864[sec]
+mkl_sparse_s_trsm elasped time : 0.001900[sec]
+
+correct!!!
+inf-norm = 0.0000114440917969
+
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.002508[sec]
+mkl_sparse_s_trsm elasped time : 0.001685[sec]
+
+Significant numeric error.
+inf-norm = 256.0000000000000000
+
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.002264[sec]
+mkl_sparse_s_trsm elasped time : 0.001773[sec]
+
+correct!!!
+inf-norm = 0.0000114440917969
+
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.002501[sec]
+mkl_sparse_s_trsm elasped time : 0.002122[sec]
+
+Significant numeric error.
+inf-norm = 32768.0000000000000000
+
+thread_num : 1
+ict_sparse_s_trsm_plain elasped time : 0.002267[sec]
+mkl_sparse_s_trsm elasped time : 0.002172[sec]
+
+correct!!!
+inf-norm = 0.0000114440917969
+

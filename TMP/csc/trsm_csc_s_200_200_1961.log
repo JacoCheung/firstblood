@@ -1,0 +1,120 @@
+./bin/trsm_s_csc_x86_64_test --data-file=Matrix/r_200_200_1961.mtx --typeA=D --diagA=U --layout=R --check
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=D,--diagA=U,--layout=R,--check,
+ict_sparse_s_trsm_plain elasped time : 0.000093[sec]
+mkl_sparse_s_trsm elasped time : 0.000025[sec]
+
+Significant numeric error.
+inf-norm = 1.9999871253967285
+
+./bin/trsm_s_csc_x86_64_test --data-file=Matrix/r_200_200_1961.mtx --typeA=D --diagA=N --layout=R --check
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=D,--diagA=N,--layout=R,--check,
+ict_sparse_s_trsm_plain elasped time : 0.000116[sec]
+mkl_sparse_s_trsm elasped time : 0.000216[sec]
+
+correct!!!
+inf-norm = 0.0000152587890625
+
+./bin/trsm_s_csc_x86_64_test --data-file=Matrix/r_200_200_1961.mtx --typeA=D --diagA=U --layout=C --check
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=D,--diagA=U,--layout=C,--check,
+ict_sparse_s_trsm_plain elasped time : 0.000091[sec]
+mkl_sparse_s_trsm elasped time : 0.000021[sec]
+
+Significant numeric error.
+inf-norm = 1.9999871253967285
+
+./bin/trsm_s_csc_x86_64_test --data-file=Matrix/r_200_200_1961.mtx --typeA=D --diagA=N --layout=C --check
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=D,--diagA=N,--layout=C,--check,
+ict_sparse_s_trsm_plain elasped time : 0.000116[sec]
+mkl_sparse_s_trsm elasped time : 0.000227[sec]
+
+correct!!!
+inf-norm = 0.0000152587890625
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=T,--fillA=L,--diagA=N,--layout=R,--transA=N,--check,
+trsm_s_csc_n_lo_row_plain called
+ict_sparse_s_trsm_plain elasped time : 0.000239[sec]
+mkl_sparse_s_trsm elasped time : 0.000345[sec]
+
+Significant numeric error.
+inf-norm = 6.0000000000000000
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=T,--fillA=L,--diagA=U,--layout=R,--transA=N,--check,
+trsm_s_csc_u_lo_row_plain called
+ict_sparse_s_trsm_plain elasped time : 0.000204[sec]
+mkl_sparse_s_trsm elasped time : 0.000341[sec]
+
+correct!!!
+inf-norm = 0.0000028610229492
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=T,--fillA=U,--diagA=N,--layout=R,--transA=N,--check,
+trsm_s_csc_n_hi_row_plain called
+ict_sparse_s_trsm_plain elasped time : 0.000227[sec]
+mkl_sparse_s_trsm elasped time : 0.000521[sec]
+
+Significant numeric error.
+inf-norm = 0.2187500000000000
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=T,--fillA=U,--diagA=U,--layout=R,--transA=N,--check,
+trsm_s_csc_u_hi_row_plain called
+ict_sparse_s_trsm_plain elasped time : 0.000205[sec]
+mkl_sparse_s_trsm elasped time : 0.000535[sec]
+
+correct!!!
+inf-norm = 0.0000023841857910
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=T,--fillA=L,--diagA=N,--layout=C,--transA=N,--check,
+trsm_s_csc_n_lo_col_plain called
+ict_sparse_s_trsm_plain elasped time : 0.000732[sec]
+mkl_sparse_s_trsm elasped time : 0.000436[sec]
+
+Significant numeric error.
+inf-norm = 10.0000000000000000
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=T,--fillA=L,--diagA=U,--layout=C,--transA=N,--check,
+trsm_s_csc_u_lo_col_plain called
+ict_sparse_s_trsm_plain elasped time : 0.000869[sec]
+mkl_sparse_s_trsm elasped time : 0.000412[sec]
+
+correct!!!
+inf-norm = 0.0000028610229492
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=T,--fillA=U,--diagA=N,--layout=C,--transA=N,--check,
+trsm_s_csc_n_hi_col_plain called
+ict_sparse_s_trsm_plain elasped time : 0.000737[sec]
+mkl_sparse_s_trsm elasped time : 0.000562[sec]
+
+Significant numeric error.
+inf-norm = 0.1796875000000000
+
+thread_num : 1
+the args are
+./bin/trsm_s_csc_x86_64_test,--data-file=Matrix/r_200_200_1961.mtx,--typeA=T,--fillA=U,--diagA=U,--layout=C,--transA=N,--check,
+trsm_s_csc_u_hi_col_plain called
+ict_sparse_s_trsm_plain elasped time : 0.001401[sec]
+mkl_sparse_s_trsm elasped time : 0.000541[sec]
+
+correct!!!
+inf-norm = 0.0000028610229492
+

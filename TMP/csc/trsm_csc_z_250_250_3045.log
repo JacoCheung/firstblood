@@ -1,0 +1,96 @@
+./bin/trsm_z_csc_x86_64_test --data-file=Matrix/r_250_250_3045.mtx --typeA=D --diagA=U --layout=R --check
+thread_num : 1
+ict_sparse_z_trsm_plain elasped time : 0.000635[sec]
+mkl_sparse_z_trsm elasped time : 0.000034[sec]
+
+Significant numeric error.
+inf-norm = 3.9841430187225342
+
+./bin/trsm_z_csc_x86_64_test --data-file=Matrix/r_250_250_3045.mtx --typeA=D --diagA=N --layout=R --check
+thread_num : 1
+ict_sparse_z_trsm_plain elasped time : 0.000784[sec]
+mkl_sparse_z_trsm elasped time : 0.001120[sec]
+
+Significant numeric error.
+inf-norm = 0.0000836469180285
+
+./bin/trsm_z_csc_x86_64_test --data-file=Matrix/r_250_250_3045.mtx --typeA=D --diagA=U --layout=C --check
+thread_num : 1
+ict_sparse_z_trsm_plain elasped time : 0.000645[sec]
+mkl_sparse_z_trsm elasped time : 0.000031[sec]
+
+Significant numeric error.
+inf-norm = 3.9841430187225342
+
+./bin/trsm_z_csc_x86_64_test --data-file=Matrix/r_250_250_3045.mtx --typeA=D --diagA=N --layout=C --check
+thread_num : 1
+ict_sparse_z_trsm_plain elasped time : 0.000809[sec]
+mkl_sparse_z_trsm elasped time : 0.001063[sec]
+
+Significant numeric error.
+inf-norm = 0.0000836140773117
+
+thread_num : 1
+trsm_z_csc_n_lo_row_plain called
+ict_sparse_z_trsm_plain elasped time : 0.001937[sec]
+mkl_sparse_z_trsm elasped time : 0.001835[sec]
+
+Significant numeric error.
+inf-norm = 1487889.4707031250000000
+
+thread_num : 1
+trsm_z_csc_u_lo_row_plain called
+ict_sparse_z_trsm_plain elasped time : 0.001497[sec]
+mkl_sparse_z_trsm elasped time : 0.001785[sec]
+
+Significant numeric error.
+inf-norm = 0.0000144140983593
+
+thread_num : 1
+trsm_z_csc_n_hi_row_plain called
+ict_sparse_z_trsm_plain elasped time : 0.002050[sec]
+mkl_sparse_z_trsm elasped time : 0.002268[sec]
+
+Significant numeric error.
+inf-norm = 1693.2577362060546875
+
+thread_num : 1
+trsm_z_csc_u_hi_row_plain called
+ict_sparse_z_trsm_plain elasped time : 0.001528[sec]
+mkl_sparse_z_trsm elasped time : 0.002179[sec]
+
+Significant numeric error.
+inf-norm = 0.0000217824899096
+
+thread_num : 1
+trsm_z_csc_n_lo_col_plain called
+ict_sparse_z_trsm_plain elasped time : 0.005262[sec]
+mkl_sparse_z_trsm elasped time : 0.003113[sec]
+
+Significant numeric error.
+inf-norm = 1440631.5820312500000000
+
+thread_num : 1
+trsm_z_csc_u_lo_col_plain called
+ict_sparse_z_trsm_plain elasped time : 0.004856[sec]
+mkl_sparse_z_trsm elasped time : 0.002941[sec]
+
+Significant numeric error.
+inf-norm = 0.0000119870914546
+
+thread_num : 1
+trsm_z_csc_n_hi_col_plain called
+ict_sparse_z_trsm_plain elasped time : 0.004530[sec]
+mkl_sparse_z_trsm elasped time : 0.003705[sec]
+
+Significant numeric error.
+inf-norm = 2083.5673179626464844
+
+thread_num : 1
+trsm_z_csc_u_hi_col_plain called
+ict_sparse_z_trsm_plain elasped time : 0.003125[sec]
+mkl_sparse_z_trsm elasped time : 0.003062[sec]
+
+Significant numeric error.
+inf-norm = 0.0000223579208622
+

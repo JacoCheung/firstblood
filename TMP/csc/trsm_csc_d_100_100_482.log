@@ -1,0 +1,144 @@
+./bin/trsm_d_csc_x86_64_test --data-file=Matrix/r_100_100_482.mtx --typeA=D --diagA=U --layout=R --check
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc ,diag, fill:0 , layout:0, diag:1, index2:1
+ict_sparse_d_trsm_plain elasped time : 0.000076[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000026[sec]
+
+Significant numeric error.
+inf-norm = 1.9999871421605289
+
+./bin/trsm_d_csc_x86_64_test --data-file=Matrix/r_100_100_482.mtx --typeA=D --diagA=N --layout=R --check
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc ,diag, fill:0 , layout:0, diag:0, index2:0
+ict_sparse_d_trsm_plain elasped time : 0.000116[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000137[sec]
+
+correct!!!
+inf-norm = 0.0000000000001137
+
+./bin/trsm_d_csc_x86_64_test --data-file=Matrix/r_100_100_482.mtx --typeA=D --diagA=U --layout=C --check
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc ,diag, fill:0 , layout:1, diag:1, index2:3
+ict_sparse_d_trsm_plain elasped time : 0.000070[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000026[sec]
+
+Significant numeric error.
+inf-norm = 1.9999871421605289
+
+./bin/trsm_d_csc_x86_64_test --data-file=Matrix/r_100_100_482.mtx --typeA=D --diagA=N --layout=C --check
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc ,diag, fill:0 , layout:1, diag:0, index2:2
+ict_sparse_d_trsm_plain elasped time : 0.000087[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000135[sec]
+
+correct!!!
+inf-norm = 0.0000000000001137
+
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:0 , layout:0, diag:0, index4:0
+trsm_d_csc_n_lo_row_plain called
+ict_sparse_d_trsm_plain elasped time : 0.000197[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000214[sec]
+
+correct!!!
+inf-norm = 0.0000000000036380
+
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:0 , layout:0, diag:1, index4:1
+trsm_d_csc_u_lo_col_plain called
+ict_sparse_d_trsm_plain elasped time : 0.000120[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000219[sec]
+
+correct!!!
+inf-norm = 0.0000000000000022
+
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:1 , layout:0, diag:0, index4:2
+trsm_d_csc_n_hi_row_plain called
+ict_sparse_d_trsm_plain elasped time : 0.000143[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000243[sec]
+
+correct!!!
+inf-norm = 0.0000000000145519
+
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:1 , layout:0, diag:1, index4:3
+trsm_d_csc_u_hi_row_plain called
+ict_sparse_d_trsm_plain elasped time : 0.000126[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000229[sec]
+
+correct!!!
+inf-norm = 0.0000000000000010
+
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:0 , layout:1, diag:0, index4:4
+trsm_d_csc_n_lo_col_plain called
+ict_sparse_d_trsm_plain elasped time : 0.000209[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000205[sec]
+
+correct!!!
+inf-norm = 0.0000000000027285
+
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:0 , layout:1, diag:1, index4:5
+trsm_d_csc_u_lo_col_plain called
+ict_sparse_d_trsm_plain elasped time : 0.000163[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000219[sec]
+
+correct!!!
+inf-norm = 0.0000000000000022
+
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:1 , layout:1, diag:0, index4:6
+trsm_d_csc_n_hi_col_plain called
+ict_sparse_d_trsm_plain elasped time : 0.000178[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000230[sec]
+
+correct!!!
+inf-norm = 0.0000000000109139
+
+thread_num : 1
+ict_trsm columns is 100
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:1 , layout:1, diag:1, index4:7
+trsm_d_csc_u_hi_col_plain called
+ict_sparse_d_trsm_plain elasped time : 0.000151[sec]
+mkl_trsm columns is 100
+mkl_sparse_d_trsm elasped time : 0.000216[sec]
+
+correct!!!
+inf-norm = 0.0000000000000013
+
