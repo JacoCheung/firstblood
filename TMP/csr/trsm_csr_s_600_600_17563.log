@@ -1,87 +1,87 @@
 ./bin/trsm_s_csr_x86_64_test --data-file=Matrix/r_600_600_17563.mtx --typeA=D --diagA=U --layout=R --check
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.000005[sec]
-mkl_sparse_s_trsm elasped time : 0.000034[sec]
+ict_sparse_s_trsm_plain elasped time : 0.000004[sec]
+mkl_sparse_s_trsm elasped time : 0.000033[sec]
 
 correct!!!
 inf-norm = 0.0000000000000000
 
 ./bin/trsm_s_csr_x86_64_test --data-file=Matrix/r_600_600_17563.mtx --typeA=D --diagA=N --layout=R --check
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.000750[sec]
-mkl_sparse_s_trsm elasped time : 0.001718[sec]
+ict_sparse_s_trsm_plain elasped time : 0.000562[sec]
+mkl_sparse_s_trsm elasped time : 0.001656[sec]
 
 correct!!!
 inf-norm = 0.0000000000000000
 
 ./bin/trsm_s_csr_x86_64_test --data-file=Matrix/r_600_600_17563.mtx --typeA=D --diagA=U --layout=C --check
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.000005[sec]
-mkl_sparse_s_trsm elasped time : 0.000030[sec]
+ict_sparse_s_trsm_plain elasped time : 0.000004[sec]
+mkl_sparse_s_trsm elasped time : 0.000043[sec]
 
 correct!!!
 inf-norm = 0.0000000000000000
 
 ./bin/trsm_s_csr_x86_64_test --data-file=Matrix/r_600_600_17563.mtx --typeA=D --diagA=N --layout=C --check
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.000853[sec]
-mkl_sparse_s_trsm elasped time : 0.003130[sec]
+ict_sparse_s_trsm_plain elasped time : 0.000699[sec]
+mkl_sparse_s_trsm elasped time : 0.003102[sec]
 
 correct!!!
 inf-norm = 0.0000152587890625
 
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.022614[sec]
-mkl_sparse_s_trsm elasped time : 0.009366[sec]
+ict_sparse_s_trsm_plain elasped time : 0.017795[sec]
+mkl_sparse_s_trsm elasped time : 0.008832[sec]
 
 Significant numeric error.
 inf-norm = 38280596832649216.0000000000000000
 
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.020786[sec]
-mkl_sparse_s_trsm elasped time : 0.009295[sec]
+ict_sparse_s_trsm_plain elasped time : 0.016143[sec]
+mkl_sparse_s_trsm elasped time : 0.007952[sec]
 
 correct!!!
 inf-norm = 0.0001296997070312
 
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.022553[sec]
-mkl_sparse_s_trsm elasped time : 0.015539[sec]
+ict_sparse_s_trsm_plain elasped time : 0.017264[sec]
+mkl_sparse_s_trsm elasped time : 0.014149[sec]
 
 Significant numeric error.
 inf-norm = 83562883710976.0000000000000000
 
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.021628[sec]
-mkl_sparse_s_trsm elasped time : 0.016050[sec]
+ict_sparse_s_trsm_plain elasped time : 0.016666[sec]
+mkl_sparse_s_trsm elasped time : 0.015895[sec]
 
 correct!!!
 inf-norm = 0.0001831054687500
 
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.019445[sec]
-mkl_sparse_s_trsm elasped time : 0.021762[sec]
+ict_sparse_s_trsm_plain elasped time : 0.014631[sec]
+mkl_sparse_s_trsm elasped time : 0.020654[sec]
 
 Significant numeric error.
 inf-norm = 33776997205278720.0000000000000000
 
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.019453[sec]
-mkl_sparse_s_trsm elasped time : 0.021843[sec]
+ict_sparse_s_trsm_plain elasped time : 0.022825[sec]
+mkl_sparse_s_trsm elasped time : 0.021545[sec]
 
 correct!!!
 inf-norm = 0.0001678466796875
 
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.019658[sec]
-mkl_sparse_s_trsm elasped time : 0.022104[sec]
+ict_sparse_s_trsm_plain elasped time : 0.030941[sec]
+mkl_sparse_s_trsm elasped time : 0.023351[sec]
 
 Significant numeric error.
 inf-norm = 83562883710976.0000000000000000
 
 thread_num : 1
-ict_sparse_s_trsm_plain elasped time : 0.031439[sec]
-mkl_sparse_s_trsm elasped time : 0.024020[sec]
+ict_sparse_s_trsm_plain elasped time : 0.030998[sec]
+mkl_sparse_s_trsm elasped time : 0.020768[sec]
 
 correct!!!
 inf-norm = 0.0001525878906250

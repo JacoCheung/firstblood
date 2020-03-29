@@ -1,87 +1,87 @@
 ./bin/trsm_z_csr_x86_64_test --data-file=Matrix/r_25_25_31.mtx --typeA=D --diagA=U --layout=R --check
 thread_num : 1
-ict_sparse_z_trsm_plain elasped time : 0.000010[sec]
-mkl_sparse_z_trsm elasped time : 0.000041[sec]
+ict_sparse_z_trsm_plain elasped time : 0.000009[sec]
+mkl_sparse_z_trsm elasped time : 0.000030[sec]
 
 correct!!!
 inf-norm = 0.0000000000000000
 
 ./bin/trsm_z_csr_x86_64_test --data-file=Matrix/r_25_25_31.mtx --typeA=D --diagA=N --layout=R --check
 thread_num : 1
-ict_sparse_z_trsm_plain elasped time : 0.000020[sec]
-mkl_sparse_z_trsm elasped time : 0.000134[sec]
+ict_sparse_z_trsm_plain elasped time : 0.000021[sec]
+mkl_sparse_z_trsm elasped time : 0.000093[sec]
 
 correct!!!
 inf-norm = 0.0000000000000142
 
 ./bin/trsm_z_csr_x86_64_test --data-file=Matrix/r_25_25_31.mtx --typeA=D --diagA=U --layout=C --check
 thread_num : 1
-ict_sparse_z_trsm_plain elasped time : 0.000007[sec]
-mkl_sparse_z_trsm elasped time : 0.000034[sec]
+ict_sparse_z_trsm_plain elasped time : 0.000006[sec]
+mkl_sparse_z_trsm elasped time : 0.000027[sec]
 
 correct!!!
 inf-norm = 0.0000000000000000
 
 ./bin/trsm_z_csr_x86_64_test --data-file=Matrix/r_25_25_31.mtx --typeA=D --diagA=N --layout=C --check
 thread_num : 1
-ict_sparse_z_trsm_plain elasped time : 0.000022[sec]
-mkl_sparse_z_trsm elasped time : 0.000121[sec]
-
-correct!!!
-inf-norm = 0.0000000000000142
-
-thread_num : 1
-ict_sparse_z_trsm_plain elasped time : 0.000031[sec]
-mkl_sparse_z_trsm elasped time : 0.000155[sec]
+ict_sparse_z_trsm_plain elasped time : 0.000017[sec]
+mkl_sparse_z_trsm elasped time : 0.000105[sec]
 
 correct!!!
 inf-norm = 0.0000000000000142
 
 thread_num : 1
 ict_sparse_z_trsm_plain elasped time : 0.000019[sec]
-mkl_sparse_z_trsm elasped time : 0.000152[sec]
-
-correct!!!
-inf-norm = 0.0000000000000009
-
-thread_num : 1
-ict_sparse_z_trsm_plain elasped time : 0.000022[sec]
-mkl_sparse_z_trsm elasped time : 0.000134[sec]
+mkl_sparse_z_trsm elasped time : 0.000143[sec]
 
 correct!!!
 inf-norm = 0.0000000000000142
 
 thread_num : 1
-ict_sparse_z_trsm_plain elasped time : 0.000014[sec]
-mkl_sparse_z_trsm elasped time : 0.000127[sec]
+ict_sparse_z_trsm_plain elasped time : 0.000015[sec]
+mkl_sparse_z_trsm elasped time : 0.000132[sec]
 
 correct!!!
 inf-norm = 0.0000000000000009
 
 thread_num : 1
-ict_sparse_z_trsm_plain elasped time : 0.000017[sec]
-mkl_sparse_z_trsm elasped time : 0.000135[sec]
-
-correct!!!
-inf-norm = 0.0000000000000142
-
-thread_num : 1
-ict_sparse_z_trsm_plain elasped time : 0.000012[sec]
-mkl_sparse_z_trsm elasped time : 0.000147[sec]
-
-correct!!!
-inf-norm = 0.0000000000000009
-
-thread_num : 1
-ict_sparse_z_trsm_plain elasped time : 0.000016[sec]
-mkl_sparse_z_trsm elasped time : 0.000135[sec]
+ict_sparse_z_trsm_plain elasped time : 0.000018[sec]
+mkl_sparse_z_trsm elasped time : 0.000123[sec]
 
 correct!!!
 inf-norm = 0.0000000000000142
 
 thread_num : 1
 ict_sparse_z_trsm_plain elasped time : 0.000013[sec]
-mkl_sparse_z_trsm elasped time : 0.000126[sec]
+mkl_sparse_z_trsm elasped time : 0.000124[sec]
+
+correct!!!
+inf-norm = 0.0000000000000009
+
+thread_num : 1
+ict_sparse_z_trsm_plain elasped time : 0.000023[sec]
+mkl_sparse_z_trsm elasped time : 0.000132[sec]
+
+correct!!!
+inf-norm = 0.0000000000000142
+
+thread_num : 1
+ict_sparse_z_trsm_plain elasped time : 0.000012[sec]
+mkl_sparse_z_trsm elasped time : 0.000130[sec]
+
+correct!!!
+inf-norm = 0.0000000000000009
+
+thread_num : 1
+ict_sparse_z_trsm_plain elasped time : 0.000016[sec]
+mkl_sparse_z_trsm elasped time : 0.000117[sec]
+
+correct!!!
+inf-norm = 0.0000000000000142
+
+thread_num : 1
+ict_sparse_z_trsm_plain elasped time : 0.000016[sec]
+mkl_sparse_z_trsm elasped time : 0.000110[sec]
 
 correct!!!
 inf-norm = 0.0000000000000009
