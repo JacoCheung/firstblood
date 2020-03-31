@@ -1,0 +1,124 @@
+thread_num : 96
+ict_sparse_d_trsm elasped time : 0.001255[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc ,diag, fill:0 , layout:0, diag:1, index2:1
+ict_sparse_d_trsm_plain elasped time : 0.004474[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+thread_num : 96
+ict_sparse_d_trsm elasped time : 0.001777[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc ,diag, fill:0 , layout:0, diag:0, index2:0
+ict_sparse_d_trsm_plain elasped time : 0.004445[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+thread_num : 96
+ict_sparse_d_trsm elasped time : 0.001147[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc ,diag, fill:0 , layout:1, diag:1, index2:3
+ict_sparse_d_trsm_plain elasped time : 0.005101[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+thread_num : 96
+ict_sparse_d_trsm elasped time : 0.001991[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc ,diag, fill:0 , layout:1, diag:0, index2:2
+ict_sparse_d_trsm_plain elasped time : 0.027227[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+thread_num : 96
+trsm_d_csc_u_hi_row called
+ict_sparse_d_trsm elasped time : 0.001376[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:1 , layout:0, diag:1, index4:3
+trsm_d_csc_u_hi_row_plain called
+ict_sparse_d_trsm_plain elasped time : 0.005204[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+thread_num : 96
+trsm_d_csc_u_lo_col called
+ict_sparse_d_trsm elasped time : 4.276222[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:0 , layout:0, diag:1, index4:1
+trsm_d_csc_u_lo_row_plain called
+ict_sparse_d_trsm_plain elasped time : 0.032150[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+thread_num : 96
+trsm_d_csc_n_hi_row called
+ict_sparse_d_trsm elasped time : 1.258882[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:1 , layout:0, diag:0, index4:2
+trsm_d_csc_n_hi_row_plain called
+ict_sparse_d_trsm_plain elasped time : 0.008625[sec]
+
+correct!!!
+inf-norm = 0.0000000000000142
+
+thread_num : 96
+trsm_d_csc_n_lo_row called
+ict_sparse_d_trsm elasped time : 3.651744[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:0 , layout:0, diag:0, index4:0
+trsm_d_csc_n_lo_row_plain called
+ict_sparse_d_trsm_plain elasped time : 0.026818[sec]
+
+correct!!!
+inf-norm = 0.0000000000001137
+
+thread_num : 96
+trsm_d_csc_u_hi_col called
+ict_sparse_d_trsm elasped time : 0.001978[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:1 , layout:1, diag:1, index4:7
+trsm_d_csc_u_hi_col_plain called
+ict_sparse_d_trsm_plain elasped time : 0.050214[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+thread_num : 96
+trsm_d_csc_u_lo_col called
+ict_sparse_d_trsm elasped time : 0.002406[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:0 , layout:1, diag:1, index4:5
+trsm_d_csc_u_lo_col_plain called
+ict_sparse_d_trsm_plain elasped time : 0.071679[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+thread_num : 96
+trsm_d_csc_n_hi_col called
+ict_sparse_d_trsm elasped time : 0.002516[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:1 , layout:1, diag:0, index4:6
+trsm_d_csc_n_hi_col_plain called
+ict_sparse_d_trsm_plain elasped time : 0.057090[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
+thread_num : 96
+trsm_d_csc_n_lo_col called
+ict_sparse_d_trsm elasped time : 0.003307[sec]
+ict_sparse_d_trsm_plain called
+trsm_plain, csc , triangular, fill:0 , layout:1, diag:0, index4:4
+trsm_d_csc_n_lo_col_plain called
+ict_sparse_d_trsm_plain elasped time : 0.088666[sec]
+
+correct!!!
+inf-norm = 0.0000000000000000
+
